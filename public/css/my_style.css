@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden;
+}
+
+.sidebar {
+    background-color: #eee;
+    height: 100vh;
+    width: 250px;
+    position: relative;
+    left: 0;
+    padding: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.sidebar.no-sidebar {
+    left: -250px;
+}
+
+.main_title {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 29px 0;
+}
+
+.icon-setting {
+    position: absolute;
+    right: -36px;
+    top: 20px;
+    width: 37px;
+    height: 37px;
+    background-image: linear-gradient(to right, #20c997, #17a2b8);
+    cursor: pointer;
+    color: #fff;
+}
+
+.icon-setting .fa-gear {
+    line-height: 37px;
+    padding: 0 9px;
+    font-size: 1.2em;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    border: 2px solid #007bff;
+    margin-bottom: 15px
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: none;
+}
+
+/* Start Style fo Navbar */
+
+nav {
+    background-image: linear-gradient(to right, #20c997, #17a2b8);
+}
+
+/* End Style fo Navbar */
+
+/* Start Style fo Footer */
+
+footer {
+    background-color: #eee;
+    padding: 20px;
+}
+
+footer h2 {
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+/* End Style fo Footer */
