@@ -9,7 +9,7 @@
     </div>
     <div>
         <div class="row mb-5">
-            <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12"></div>
                 <div class="card mb-3 col-xs-0">
                     <img src="{{asset('images/p1.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
